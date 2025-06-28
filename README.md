@@ -62,7 +62,13 @@ Each folder is organized according to the assigned module and topic.
 │
 ├── SLF4J_Logging/
 │ └── LoggingExample.java
-
+│
+├── PLSQL_Exercises/
+│ ├── 1_control_structures.sql
+│ ├── 2_case_statement.sql
+│ ├── 3_stored_procedure.sql
+│ └── 4_call_procedure.sql
+---
 
 ---
 
@@ -88,6 +94,12 @@ Each folder is organized according to the assigned module and topic.
 ### 4️⃣ SLF4J Logging
 - **Exercise 1**: Logging Error Messages and Warning Levels
 
+### 5️⃣ PL/SQL Programming
+- **Exercise 1**: Control Structures (FOR Loop)
+- **Exercise 2**: CASE Statement Logic
+- **Exercise 3**: Stored Procedure for Student Grades
+- **Exercise 4**: Procedure Invocation
+
 ---
 
 ## 💻 How to Run
@@ -100,28 +112,28 @@ Each folder is organized according to the assigned module and topic.
 - JUnit 5 JARs
 - Mockito Core & Inline JARs
 - SLF4J API and Simple JARs
+- Oracle Live SQL (for PL/SQL) or SQL Developer
 
 ---
 
 ## 📦 How to Build & Run (Eclipse)
+
 1. Open Eclipse and create a new Java project.
 2. Add source files under `src/`.
 3. Add external libraries (JUnit, Mockito, SLF4J) via:
-
-mockito-core-5.2.0
-mockito-inline-5.2.0
-slf4j-api-2.0.9
-slf4j-simple-2.0.9
-
----
-
-## 📌 Notes
-- All code is modular and commented.
-- SLF4J logs to console via the simple logger backend.
-- Mockito uses the `mock-maker-inline` plugin for full functionality (added under `mockito-extensions`).
+4. Required JARs:
+- `mockito-core-5.2.0`
+- `mockito-inline-5.2.0`
+- `slf4j-api-2.0.9`
+- `slf4j-simple-2.0.9`
+5. Run test classes using:  
+`Right-click → Run As → JUnit Test`
 
 ---
 
 ## 🧑‍💻 Author
-- **Dwipayan Debnath**  
+
+**Dwipayan Debnath**  
 [GitHub Repository Link](https://github.com/Dwipayan13/learning-program-solutions)
+
+---
