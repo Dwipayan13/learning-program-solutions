@@ -1,3 +1,41 @@
+# Cognizant Deep Skilling – Java Exercises
+
+This repository contains Java implementations for hands-on exercises from the Cognizant Deep Skilling Phase 2 program.
+
+---
+
+## ✅ Completed Java Exercises
+
+### 🧩 1. Singleton Pattern  
+📁 `Exercise_1_Singleton/SingletonPattern.java`  
+Implements Singleton to restrict class instantiation.
+
+### 🏭 2. Factory Method Pattern  
+📁 `Exercise_2_FactoryMethod/FactoryPattern.java`  
+Demonstrates interface-based object creation.
+
+### 🛒 3. E-commerce Search Function  
+📁 `Exercise_3_EcommerceSearch/SearchFunction.java`  
+Filters products by keyword (case-insensitive).
+
+### 📈 4. Financial Forecasting  
+📁 `Exercise_4_FinancialForecast/FinancialForecast.java`  
+Uses linear regression to predict revenue.
+
+---
+
+## 💻 How to Run
+
+You can run all programs using:
+- ✅ **Eclipse IDE** or **VS Code**
+- ✅ **Command line**:
+  ```bash
+  javac FileName.java
+  java FileName
+
+
+
+
 # Cognizant Deep Skilling – Phase 2
 
 This repository contains hands-on exercises and implementations for the Cognizant Deep Skilling Program – Phase 2.  
