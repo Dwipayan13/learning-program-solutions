@@ -1,0 +1,12 @@
+com\cognizant\springcore\ioc\MainApp.class
+com\cognizant\springcore\app\MainApp.class
+com\cognizant\springcore\dependencyinjection\TextEditor.class
+com\cognizant\springcore\ioc\HelloGreetingService.class
+com\cognizant\springcore\App.class
+com\cognizant\springcore\app\HelloService.class
+com\cognizant\springcore\dependencyinjection\MainApp.class
+com\cognizant\springcore\ioc\GreetingService.class
+com\cognizant\springcore\dependencyinjection\AppConfig.class
+com\cognizant\springcore\dependencyinjection\SpellChecker.class
+com\cognizant\springcore\ioc\AppConfig.class
+com\cognizant\springcore\app\AppConfig.class
