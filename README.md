@@ -1,25 +1,25 @@
 # Cognizant Deep Skilling – Java Exercises
 
-This repository contains Java implementations for hands-on exercises from the Cognizant Deep Skilling Phase 2 & Phase 3 programs.
+This repository contains Java implementations for hands-on exercises from the **Cognizant Deep Skilling Phase 2, Phase 3 & Phase 4** programs.
 
 ---
 
 ## ✅ Completed Java Exercises
 
 ### 🧩 1. Singleton Pattern  
-📁 `Exercise_1_Singleton/SingletonPattern.java`  
+📁 `DesignPatterns/SingletonPattern.java`  
 Implements Singleton to restrict class instantiation.
 
 ### 🏭 2. Factory Method Pattern  
-📁 `Exercise_2_FactoryMethod/FactoryPattern.java`  
+📁 `DesignPatterns/FactoryPattern.java`  
 Demonstrates interface-based object creation.
 
 ### 🛒 3. E-commerce Search Function  
-📁 `Exercise_3_EcommerceSearch/SearchFunction.java`  
+📁 `DataStructuresAlgorithms/EcommerceSearch.java`  
 Filters products by keyword (case-insensitive).
 
 ### 📈 4. Financial Forecasting  
-📁 `Exercise_4_FinancialForecast/FinancialForecast.java`  
+📁 `DataStructuresAlgorithms/FinancialForecasting.java`  
 Uses linear regression to predict revenue.
 
 ---
@@ -32,50 +32,54 @@ You can run all programs using:
   ```bash
   javac FileName.java
   java FileName
-Cognizant Deep Skilling – Phase 2 & Phase 3
-This repository contains hands-on exercises and implementations for the Cognizant Deep Skilling Program – Phase 2 and Phase 3.
-Each folder is organized according to the assigned module and topic.
-
 📁 Folder Structure
 /
 ├── DesignPatterns/
-│ ├── SingletonPattern.java
-│ └── FactoryPattern.java
+│   ├── SingletonPattern.java
+│   └── FactoryPattern.java
 │
 ├── DataStructuresAlgorithms/
-│ ├── EcommerceSearch.java
-│ └── FinancialForecasting.java
+│   ├── EcommerceSearch.java
+│   └── FinancialForecasting.java
 │
 ├── JUnit_Mockito/
-│ ├── AssertionsTest.java
-│ ├── AAA_PatternTest.java
-│ ├── MockingTest.java
-│ └── VerifyInteractionsTest.java
+│   ├── AssertionsTest.java
+│   ├── AAA_PatternTest.java
+│   ├── MockingTest.java
+│   └── VerifyInteractionsTest.java
 │
 ├── SLF4J_Logging/
-│ └── LoggingExample.java
+│   └── LoggingExample.java
 │
 ├── PLSQL_Exercises/
-│ ├── 1_control_structures.sql
-│ ├── 2_case_statement.sql
-│ ├── 3_stored_procedure.sql
-│ └── 4_call_procedure.sql
+│   ├── 1_control_structures.sql
+│   ├── 2_case_statement.sql
+│   ├── 3_stored_procedure.sql
+│   └── 4_call_procedure.sql
 │
 ├── SpringCoreMaven/
-│ ├── Exercise1_BasicSpring/
-│ ├── Exercise2_DependencyInjection/
-│ ├── Exercise4_MavenProject/
-│ ├── Exercise5_IoCContainer/
-│ ├── Exercise7_ConstructorSetterInjection/
-│ └── Exercise9_SpringBootApp/
+│   ├── Exercise1_BasicSpring/
+│   ├── Exercise2_DependencyInjection/
+│   ├── Exercise4_MavenProject/
+│   ├── Exercise5_IoCContainer/
+│   ├── Exercise7_ConstructorSetterInjection/
+│   └── Exercise9_SpringBootApp/
 │
 ├── spring-data-jpa-handson/
-│ ├── Country.java
-│ ├── CountryController.java
-│ ├── CountryRepository.java
-│ ├── CountryService.java
-│ ├── CountryServiceImpl.java
-│ └── SpringDataJpaHandsonApplication.java
+│   ├── Country.java
+│   ├── CountryController.java
+│   ├── CountryRepository.java
+│   ├── CountryService.java
+│   ├── CountryServiceImpl.java
+│   └── SpringDataJpaHandsonApplication.java
+│
+├── spring-rest-handson/
+│   ├── controller/
+│   ├── model/
+│   ├── config/
+│   ├── security/
+│   ├── util/
+│   └── SpringRestHandsonApplication.java
 
 ✅ Completed Exercises
 1️⃣ Design Principles & Patterns
@@ -89,16 +93,14 @@ Exercise 1: E-commerce Platform Search
 Exercise 2: Financial Forecasting (Linear Regression)
 
 3️⃣ TDD using JUnit5 & Mockito
-JUnit:
-
+✅ JUnit
 Exercise 1: JUnit Setup
 
 Exercise 3: Assertions
 
 Exercise 4: AAA Pattern, Test Fixtures, Setup/Teardown
 
-Mockito:
-
+✅ Mockito
 Exercise 1: Mocking and Stubbing
 
 Exercise 2: Verifying Interactions
@@ -142,23 +144,28 @@ Exercise 5: Demonstrate implementation of O/R Mapping
 
 Exercise 6: Demonstrate writing HQL and Native Queries
 
-💻 How to Run
-These projects were created using Eclipse IDE and can also be run in VS Code with proper setup.
+🔐 Phase 4: Spring REST & JWT
+✅ Spring REST with Spring Boot 3
+Exercise 1: Create a Spring Web Project using Maven
 
-Requirements
-Java 17 or 21
+Exercise 2: Load Country from Spring XML Configuration
 
-Eclipse IDE or VS Code
+Exercise 3: Hello World RESTful Web Service
 
-Spring Boot 3.x
+Exercise 4: REST - Country Web Service
 
-JPA/Hibernate
+Exercise 5: REST - Get country based on country code
 
-JUnit 5 / Mockito (for tests)
+✅ Spring Security & JWT
+Exercise 6: Create authentication service that returns JWT
 
-H2 Database (in-memory)
+/authenticate endpoint implemented
 
-Maven
+JwtUtil.java handles token generation/validation
+
+MyUserDetailsService.java for user details
+
+SpringSecurityConfig.java for JWT filter and config
 
 🧑‍💻 Author
 Dwipayan Debnath
