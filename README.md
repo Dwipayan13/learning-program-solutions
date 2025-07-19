@@ -1,6 +1,6 @@
 # Cognizant Deep Skilling – Java Exercises
 
-This repository contains Java implementations for hands-on exercises from the **Cognizant Deep Skilling Phase 2, Phase 3 & Phase 4** programs.
+This repository contains Java implementations for hands-on exercises from the **Cognizant Deep Skilling Phase 2, Phase 3, Phase 4 & Phase 5** programs.
 
 ---
 
@@ -32,6 +32,7 @@ You can run all programs using:
   ```bash
   javac FileName.java
   java FileName
+
 📁 Folder Structure
 /
 ├── DesignPatterns/
@@ -80,92 +81,116 @@ You can run all programs using:
 │   ├── security/
 │   ├── util/
 │   └── SpringRestHandsonApplication.java
+│
+├── microservices/
+│   ├── eureka-server/
+│   │   └── EurekaServerApplication.java
+│   ├── account-service/
+│   │   ├── model/Account.java
+│   │   ├── controller/AccountController.java
+│   │   └── AccountServiceApplication.java
+│   ├── loan-service/
+│   │   ├── model/Loan.java
+│   │   ├── controller/LoanController.java
+│   │   └── LoanServiceApplication.java
+│   └── api-gateway/
+│       ├── ApiGatewayApplication.java
 
-✅ Completed Exercises
+✅ Completed Exercises by Phase
 1️⃣ Design Principles & Patterns
-Exercise 1: Singleton Pattern
+Singleton Pattern
 
-Exercise 2: Factory Method Pattern
+Factory Method Pattern
 
 2️⃣ Data Structures & Algorithms
-Exercise 1: E-commerce Platform Search
+E-commerce Platform Search
 
-Exercise 2: Financial Forecasting (Linear Regression)
+Financial Forecasting (Linear Regression)
 
 3️⃣ TDD using JUnit5 & Mockito
-✅ JUnit
-Exercise 1: JUnit Setup
+JUnit:
 
-Exercise 3: Assertions
+JUnit Setup
 
-Exercise 4: AAA Pattern, Test Fixtures, Setup/Teardown
+Assertions
 
-✅ Mockito
-Exercise 1: Mocking and Stubbing
+AAA Pattern & Test Fixtures
 
-Exercise 2: Verifying Interactions
+Mockito:
+
+Mocking & Stubbing
+
+Verifying Interactions
 
 4️⃣ SLF4J Logging
-Exercise 1: Logging Error Messages and Warning Levels
+Logging Error Messages and Warning Levels
 
 5️⃣ PL/SQL Programming
-Exercise 1: Control Structures (FOR Loop)
+FOR Loop (Control Structures)
 
-Exercise 2: CASE Statement Logic
+CASE Statement
 
-Exercise 3: Stored Procedure for Student Grades
+Stored Procedure for Grades
 
-Exercise 4: Procedure Invocation
+Procedure Invocation
 
 🚀 Phase 3: Spring Core, Maven & JPA
 ✅ Spring Core & Maven
-Exercise 1: Configuring a Basic Spring Application
+Configuring a Basic Spring Application
 
-Exercise 2: Implementing Dependency Injection
+Implementing Dependency Injection
 
-Exercise 4: Creating and Configuring a Maven Project
+Creating and Configuring a Maven Project
 
-Exercise 5: Configuring the Spring IoC Container
+Configuring the Spring IoC Container
 
-Exercise 7: Implementing Constructor and Setter Injection
+Implementing Constructor and Setter Injection
 
-Exercise 9: Creating a Spring Boot Application
+Creating a Spring Boot Application
 
 ✅ Spring Data JPA with Spring Boot & Hibernate
-Exercise 1: Implement services for managing Country
+Country Service Implementation
 
-Exercise 2: Find a country based on country code
+Find by Country Code
 
-Exercise 3: Add a new country
+Add New Country
 
-Exercise 4: Demonstrate implementation of Query Methods
+Query Methods
 
-Exercise 5: Demonstrate implementation of O/R Mapping
+O/R Mapping
 
-Exercise 6: Demonstrate writing HQL and Native Queries
+HQL and Native Queries
 
 🔐 Phase 4: Spring REST & JWT
 ✅ Spring REST with Spring Boot 3
-Exercise 1: Create a Spring Web Project using Maven
+Create a Spring Web Project using Maven
 
-Exercise 2: Load Country from Spring XML Configuration
+Load Country from Spring XML Configuration
 
-Exercise 3: Hello World RESTful Web Service
+Hello World RESTful API
 
-Exercise 4: REST - Country Web Service
+Country REST Service
 
-Exercise 5: REST - Get country based on country code
+REST – Get Country by Code
 
 ✅ Spring Security & JWT
-Exercise 6: Create authentication service that returns JWT
+Implement /authenticate endpoint
 
-/authenticate endpoint implemented
-
-JwtUtil.java handles token generation/validation
+JwtUtil.java for token creation & validation
 
 MyUserDetailsService.java for user details
 
-SpringSecurityConfig.java for JWT filter and config
+SpringSecurityConfig.java for JWT security configuration
+
+☁️ Phase 5: Microservices with Spring Boot 3 and Spring Cloud
+✅ Microservices Architecture with Eureka and Gateway
+✔️ Created account-service microservice
+
+✔️ Created loan-service microservice
+
+✔️ Created eureka-server and registered both microservices
+
+✔️ Created and configured api-gateway to route to account-service and loan-service
 
 🧑‍💻 Author
 Dwipayan Debnath
